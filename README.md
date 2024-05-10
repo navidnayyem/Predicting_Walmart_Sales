@@ -3,6 +3,8 @@
 # Explanation of Code:
 My project code is a comprehensive implementation of a machine learning project aimed at predicting Walmart's sales. It begins by importing essential libraries such as pandas, numpy, and seaborn for data manipulation, numerical operations, visualization, and machine learning model building. These libraries provide a solid foundation for the subsequent tasks.
 
+The Walmart Dataset Link: https://www.kaggle.com/datasets/yasserh/walmart-dataset
+
 Firstly, the code reads the dataset from a CSV file named 'Walmart.csv' into a pandas DataFrame named dataset. This step is crucial as it forms the basis for all further data processing and analysis. The dataset likely contains various features such as date, store number, temperature, fuel price, CPI (Consumer Price Index), unemployment rate, and weekly sales.
 
 Following data loading, the code performs extensive data preprocessing. It converts the 'Date' column to datetime format and extracts additional features such as day, month, and year. Feature engineering enriches the dataset by providing more meaningful insights, such as the day of the week. Duplicate rows are also removed to ensure data cleanliness and integrity.
